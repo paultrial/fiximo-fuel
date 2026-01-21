@@ -114,7 +114,7 @@ export class HomePage implements OnInit {
     if (this.form.valid) {
       console.log('Fuel Entry Submitted:', this.model);
       // In a real app, send to API
-      alert('Eficiență Înregistrată cu Succes!');
+      alert('Alimentare Înregistrată cu Succes!');
     }
   }
 }

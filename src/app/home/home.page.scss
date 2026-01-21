@@ -144,6 +144,9 @@ ion-content {
       --border-radius: 12px;
       --padding-start: 16px;
       --highlight-height: 0;
+      --color: #000000;
+      --placeholder-color: #666666;
+      --placeholder-opacity: 1;
       margin-bottom: 10px;
       border: 1px solid #e0e0e0;
       transition: all 0.3s ease;
@@ -156,12 +159,13 @@ ion-content {
 
     ion-label {
       font-weight: 600 !important;
-      color: #764ba2 !important;
+      color: #000000 !important;
       margin-bottom: 8px !important;
     }
 
     input {
       font-size: 1.1rem !important;
+      color: #000000 !important;
     }
   }
 }

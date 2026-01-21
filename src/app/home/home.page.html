@@ -18,6 +18,8 @@
       <span>Identificat: <strong>{{ model.vehicleId }}</strong> ({{ model.fuelType }})</span>
     </div>
 
+    <!-- {{model | json}} -->
+
     <ion-card class="premium-card">
       <ion-card-content>
         <form [formGroup]="form" (ngSubmit)="submit()">
